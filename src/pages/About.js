@@ -19,7 +19,7 @@ const AboutMe = () => {
                     </g>
                   </svg>
                 </div>
-                <p className="title">Who I am?</p>
+                <p className="title">Who am I?</p>
                 <p className="text">Hi! My name is Roque Jerico Turingan. I'm a passionate web developer with a strong focus on back-end development. I successfully completed the intensive 3-month JavaScript Full Stack Course at Zuitt Coding Bootcamp last June 2023.</p>
               </div>
         </div>
