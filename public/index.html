@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../App.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Black+Ops+One&family=Dancing+Script&family=Great+Vibes&family=Pacifico&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>DevCatalyst | RJ Turingan</title>
+  </head>
+  <body>
+    <!-- LOADER -->
+    <section class="loader">
+        <div class="spinner"></div>
+        <div class="loader-text"></div>
+     </section>
+     <!-- END OF LOADER -->
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <footer class="nav-top fixed-bottom">
+      <label class="switch-container float-right">
+        <input id="toggleDark" type="checkbox">
+        <span class="slider"></span> </label>
+      </footer>
+
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+        // Show the loader for 5 seconds
+        var loader = document.querySelector('.loader');
+        setTimeout(function() {
+          loader.style.display = 'none';
+        }, 5000);
+      });
+
+      const darkToggleBtn = document.querySelector('#toggleDark');
+      const body = document.body;
+
+      darkToggleBtn.addEventListener('click', function() {
+        body.classList.toggle('dark');
+      });
+
+    </script>
+    
+  </body>
+</html>

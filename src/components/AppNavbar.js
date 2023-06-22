@@ -1,0 +1,40 @@
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import '../App.css';
+
+const AppNavbar = ({ expanded, isSmallScreen, handleNavbarToggle }) => {
+  const renderNavbar = () => {
+    return(
+    <MainNavbar
+      expanded={expanded}
+      isSmallScreen={isSmallScreen}
+      handleNavbarToggle={handleNavbarToggle}
+    />
+    );
+  };
+
+  return renderNavbar();
+};
+
+const MainNavbar = ({ expanded, isSmallScreen, handleNavbarToggle }) => {
+  return (
+    <Navbar expand="lg" className="fixed-top" expanded={expanded}>
+      <Container>
+        <Navbar.Brand as={NavLink} to="/" className={isSmallScreen ? 'text-center logo-name' : 'text-lg-left logo-name'}>DevCatalyst</Navbar.Brand>
+
+        <Navbar.Toggle className="collapse-nav" onClick={handleNavbarToggle} />
+        
+        <Navbar.Collapse>
+          <Nav className="ml-auto text-center">
+            <Nav.Link className="mx-4" as={NavLink} to="/about" exact>About Me</Nav.Link>
+            <Nav.Link className="mx-4" as={NavLink} to="/qualifications" exact>Qualification</Nav.Link>
+            <Nav.Link className="mx-4" as={NavLink} to="/message" exact>Message Me</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default AppNavbar;
