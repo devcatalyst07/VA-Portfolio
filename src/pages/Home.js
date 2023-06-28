@@ -5,7 +5,7 @@ import turinganImage from '../files/turingan.png';
 import cv from '../files/cv.pdf';
 
 const Home = () => {
-  const sentences = ['A Web Developer from the Philippines', 'Back End Developer'];
+  const sentences = ['A Web Developer from the Philippines', 'Front End Developer', 'Back End Developer'];
   const [sentenceIndex, setSentenceIndex] = useState(0);
   const [displayedSentence, setDisplayedSentence] = useState('');
 
@@ -29,7 +29,7 @@ const Home = () => {
       if (currentIndex === sentences[sentenceIndex].length) {
         clearInterval(typingInterval);
 
-        if (sentenceIndex === 1) {
+        if (sentenceIndex === 2) {
           setTimeout(() => {
             const eraseInterval = setInterval(() => {
               currentSentence = currentSentence.slice(0, -1);
