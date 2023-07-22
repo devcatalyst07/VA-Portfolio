@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import turinganImage from '../files/turingan.png';
-import cv from '../files/cv.pdf';
+import turinganImage from '../files/turinganA.jfif';
+import cv from '../files/Turingan-resume.pdf';
 
 const Home = () => {
   const sentences = ['A Web Developer from the Philippines', 'Front End Developer', 'Back End Developer'];
