@@ -72,7 +72,7 @@ const AboutMe = () => {
               </span>
             </div>
             <div className="desc">
-              I am a graduating student of Bachelor's degree in Computer Engineering, set to graduate on September 1, 2023. Recently, I successfully completed the intensive 3-month JavaScript Full Stack Course at Zuitt Coding Bootcamp. Notably, I was recognized as the Best in Capstone 2 and received special awards for being an Enthusiastic Learner and a Responsible individual.
+              I graduated my Bachelor's Degree in Computer Engineer at National College of Science and Technology in City Of Dasmariñas, Cavite. I finished the 3-month intensive JavaScript Full Stack Course Program in Zuitt Coding Bootcamp, where I gained Best in Capstone 2.
             </div>
           </div>
         </li>

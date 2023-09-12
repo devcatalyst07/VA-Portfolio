@@ -35,7 +35,7 @@ const AppNavbar = ({ isSmallScreen }) => {
               exact
               onClick={() => setExpanded(false)}
             >
-              Qualification
+              Qualifications
             </Nav.Link>
             <Nav.Link
               className="mx-4"

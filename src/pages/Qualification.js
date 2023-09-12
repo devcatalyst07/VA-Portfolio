@@ -73,7 +73,7 @@ function FeatureBox() {
           <div className="col-lg-4 col-sm-6">
            <div className="item"> <img src={ncst} className="icon feature_box_col_one icon-skills" alt="ncst"/><i className="fa fa-globe"></i>
               <h6><a className="text-decoration-none" href="https://cgms.capstone.pw/about">NCST E-Grading System</a></h6>
-              <p>Our college thesis project, the NCST E-Grading System, is a revolutionary tool for managing grades. As the group leader and main programmer of the group, we assure that it seamlessly integrates with MS Excel, enabling easy import/export of grade data and generating comprehensive reports for analysis and record-keeping.</p>
+              <p>Our college thesis project, the NCST E-Grading System, is a revolutionary tool for managing grades. Enabling easy import/export of grade data and generating comprehensive reports for analysis and record-keeping.</p>
             </div>
           </div>
         </div>
