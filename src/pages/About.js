@@ -72,7 +72,7 @@ const AboutMe = () => {
               </span>
             </div>
             <div className="desc">
-              I graduated my Bachelor's Degree in Computer Engineer at National College of Science and Technology in City Of Dasmariñas, Cavite. I finished the 3-month intensive JavaScript Full Stack Course Program in Zuitt Coding Bootcamp, where I gained Best in Capstone 2.
+              I graduated my Bachelor's Degree in Computer Engineer at National College of Science and Technology in City Of Dasmariñas, Cavite. I finished the 3-month intensive JavaScript Full Stack Course Program in Zuitt Coding Bootcamp, where I earned the Best in Capstone 2 award.
             </div>
           </div>
         </li>

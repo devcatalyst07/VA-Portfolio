@@ -34,8 +34,8 @@ function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
   confirmAlert({
-    title: 'Success',
-    message: 'Message Successfully sent',
+    title: 'Error',
+    message: 'We are currently performing maintenance on this feature. If you have any concerns, please feel free to send an email to roquejericoturingan@gmail.com. Thank you.',
     buttons: [
       {
         label: 'OK',
