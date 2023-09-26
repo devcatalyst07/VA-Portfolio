@@ -17,10 +17,11 @@ import robo3t from '../files/robo3t.png';
 import sublime from '../files/sublime.png';
 import vscode from '../files/vscode.png';
 import frontend from '../files/frontend.png';
-import backend from '../files/backend.jpg';
+import backend from '../files/backend.png';
 import others from '../files/others.png';
 import voyage from '../files/voyage.jpg';
 import ncst from '../files/ncst.jpg';
+import csharp from '../files/csharp.png';
 
 function FeatureBox() {
   return (
@@ -44,6 +45,7 @@ function FeatureBox() {
           <div className="col-lg-4 col-sm-6">
             <div className="item"> <img src={backend} className="icon feature_box_col_one icon-skills" alt="backend"/><i className="fa fa-globe"></i>
               <h6>Backend Development</h6>
+              <img className="icon-skills" src={csharp} alt="c#"/>
               <img className="icon-skills" src={javascript} alt="javascript"/>
               <img className="icon-skills" src={node} alt="node"/>
               <img className="icon-skills" src={express} alt="express"/>
