@@ -5,7 +5,7 @@ import turinganImage from '../files/turinganA.jfif';
 import cv from '../files/Turingan-resume.pdf';
 
 const Home = () => {
-  const sentences = ['A Web Developer from the Philippines', 'Front End Developer', 'Back End Developer'];
+  const sentences = ['Junior Software Engineer from the Philippines', 'Front End Developer', 'Back End Developer'];
   const [sentenceIndex, setSentenceIndex] = useState(0);
   const [displayedSentence, setDisplayedSentence] = useState('');
 
