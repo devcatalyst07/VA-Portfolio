@@ -20,14 +20,14 @@ const AboutMe = () => {
                   </svg>
                 </div>
                 <p className="title">Who am I?</p>
-                <p className="text">Hi! My name is Roque Jerico Turingan. I'm a passionate web developer and aspiring software engineer with a strong focus on back-end development. I successfully completed the intensive 3-month JavaScript Full Stack Course at Zuitt Coding Bootcamp last June 2023.</p>
+                <p className="text">Hi! I'm Roque Jerico Turingan a seasoned Frontend Software Engineer, currently engaged in a dynamic role at Manulife.</p>
               </div>
         </div>
 
         <div className="col-md-4">
           <div className="card">
                 <div className="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" height="38px" width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xmlSpace="preserve">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" height="50px" width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xmlSpace="preserve">
                     <linearGradient id="gradientColor">
                       <stop offset="5%" stopColor="#7eaaff"></stop>
                       <stop offset="95%" stopColor="#ff48fb"></stop>
@@ -38,7 +38,7 @@ const AboutMe = () => {
                   </svg>
                 </div>
                 <p className="title">Education</p>
-                <p className="text">I graduated with a Bachelor's degree in Computer Engineering from National College of Science and Technology - Dasmariñas in 2023. During my studies, I gained a solid foundation in software development and computer hardware principles.</p>
+                <p className="text">Successfully earned a Bachelor's Degree in Computer Engineering at National College of Science and Technology.</p>
               </div>
         </div>
 
@@ -56,13 +56,28 @@ const AboutMe = () => {
                   </svg>
                 </div>
                 <p className="title">Hobbies</p>
-                <p className="text">Apart from coding, I enjoy hiking, reading books, and playing the guitar in my free time. I find these activities to be a great source of inspiration and relaxation. Exploring nature, diving into different literary worlds, and creating music bring me joy and balance.</p>
+                <p className="text">Beyond coding, I find inspiration and relaxation in hiking, exploring natures, reading, and playing the guitar.</p>
               </div>
         </div>
       </div>
       
       <h2 className="mt-5 text-center">Timeline of Experience</h2>
       <ul className="timeline">
+
+      <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="flag">Manulife</span>
+              <span className="time-wrapper">
+                <span className="time">November 2023 - present</span>
+              </span>
+            </div>
+            <div className="desc">
+              Currently employed as Front-end Software Engineer at Manulife.
+            </div>
+          </div>
+        </li>
+
         <li>
           <div className="direction-r">
             <div className="flag-wrapper">
@@ -72,7 +87,7 @@ const AboutMe = () => {
               </span>
             </div>
             <div className="desc">
-              I graduated my Bachelor's Degree in Computer Engineer at National College of Science and Technology in City Of Dasmariñas, Cavite. I finished the 3-month intensive JavaScript Full Stack Course Program in Zuitt Coding Bootcamp, where I earned the Best in Capstone 2 award.
+            My journey into the world of software development began with a solid educational foundation, having earned a Bachelor's Degree in Computer Engineering at National College of Science and Technology in September 2023. To further enhance my skills and stay at the forefront of the industry, I undertook a rigorous 3-month intensive coding bootcamp at Zuitt where I earned the Best in Capstone 2 award and best in prototype in thesis.
             </div>
           </div>
         </li>
@@ -86,7 +101,7 @@ const AboutMe = () => {
               </span>
             </div>
             <div className="desc">
-              I gained valuable professional experience at Your Virtual World (YVW), where I worked as a Customer Service Representative and was later promoted to the role of Subject Matter Expert. From June 2021 to February 2023, I contributed to enhancing customer satisfaction. Furthermore, I served as an IT Support Specialist intern at YVW for five months, acquiring hands-on experience in troubleshooting and supporting various technical systems.
+              I gained valuable professional experience at Your Virtual World (YVW), where I worked as a Customer Service Representative and was later promoted to the role of Subject Matter Expert. Furthermore, I served as an IT Support Specialist intern at YVW for five months, acquiring hands-on experience in troubleshooting and supporting various technical systems.
             </div>
           </div>
         </li>
@@ -100,7 +115,7 @@ const AboutMe = () => {
               </span>
             </div>
             <div className="desc">
-              I completed my Senior High School education at the National College of Science and Technology, specializing in the Humanities and Social Sciences Strand. I was honored with the distinction of being a With High Honors recipient and recognized as a Leadership Awardee. Additionally, I held the positions of Editor-in-Chief and President of SHS Leaders during my time at the school.
+              I completed my Senior High School education at the National College of Science and Technology, specializing in the Humanities and Social Sciences Strand. I was honored with the distinction of being a With High Honors recipient and recognized as a Leadership Awardee. Additionally, I held the positions of Editor-in-Chief in our school publication and President of SHS Student Government.
             </div>
           </div>
         </li>
@@ -114,7 +129,7 @@ const AboutMe = () => {
               </span>
             </div>
             <div className="desc">
-              I gained valuable professional experience as a Campus Journalism Trainer, where I worked with students to develop their writing and communication skills. From 2014 to 2023, I conducted workshops, mentored aspiring journalists, and organized various campus journalism events.
+              I gained valuable part-time experience as a Campus Journalism Trainer, where I worked with students to develop their writing and communication skills. From 2014 to 2023, I conducted workshops, mentored aspiring journalists, and organized various campus journalism events.
             </div>
           </div>
         </li>
