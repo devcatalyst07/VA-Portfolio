@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import logo from '../files/logo.png';
 import '../App.css';
 
 const AppNavbar = ({ isSmallScreen }) => {
@@ -13,8 +14,8 @@ const AppNavbar = ({ isSmallScreen }) => {
   return (
     <Navbar expand="lg" className="fixed-top navbar-toggle" expanded={expanded}>
       <Container>
-        <Navbar.Brand as={NavLink} to="/" className={isSmallScreen ? 'text-center logo-name' : 'text-lg-left logo-name'}>
-          DevCatalyst
+        <Navbar.Brand as={NavLink} to="/" className={isSmallScreen ? 'text-center logo-name' : 'text-lg-left'}>
+          <img id="Logo" src={logo} className="logo" alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle className="collapse-nav" onClick={handleNavbarToggle} />
         <Navbar.Collapse>

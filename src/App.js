@@ -5,7 +5,7 @@ import './App.css';
 import AppNavbar from './components/AppNavbar';
 import Home from './pages/Home';
 import About from './pages/About';
-import Qualification from './pages/Qualification';
+import Qualification from './pages/Qualifications';
 import Message from './pages/Message';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
-				<Route path="/qualifications" element={<Qualification />} />
+				<Route path="/qualifications" element={<Qualification/>} />
 				<Route path="/message" element={<Message />} />
 			</Routes>
 			</Container>
@@ -25,4 +25,4 @@ function App() {
 	)
 }
 
-export default App;
+export default App; 

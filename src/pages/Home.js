@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import turinganImage from '../files/turinganA.jfif';
+import turinganImage from '../files/front.png';
 import cv from '../files/Turingan-resume.pdf';
 
 const Home = () => {
-  const sentences = ['Junior Software Engineer from the Philippines', 'Front End Developer', 'Back End Developer'];
+  const sentences = ['Software Engineer', 'Front End Developer', 'Back End Developer'];
   const [sentenceIndex, setSentenceIndex] = useState(0);
   const [displayedSentence, setDisplayedSentence] = useState('');
 
@@ -38,7 +38,7 @@ const Home = () => {
               if (currentSentence === '') {
                 clearInterval(eraseInterval);
                 setTimeout(() => {
-                  setSentenceIndex(0); // Transition back to the main sentence
+                  setSentenceIndex(0);
                 }, 1000);
               }
             }, 100);
@@ -79,7 +79,7 @@ const Home = () => {
           </div>
         </div>
         <div className="col-lg-4">
-          <img id="myself" src={turinganImage} className="rounded-circle myself" alt="myself" />
+          <img id="myself" src={turinganImage} className="myself" alt="myself" />
         </div>
       </div>
     </div>
