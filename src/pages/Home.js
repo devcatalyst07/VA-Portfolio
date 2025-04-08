@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import turinganImage from '../files/front.png';
-import cv from '../files/Turingan-resume.pdf';
+import cv from '../files/cv.pdf';
 
 const Home = () => {
   const sentences = ['Software Engineer', 'Front End Developer', 'Back End Developer'];

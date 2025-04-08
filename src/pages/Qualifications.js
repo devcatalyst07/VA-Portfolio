@@ -1,5 +1,6 @@
 import '../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import yvwImage from '../files/yvw.PNG';
 
 
 
@@ -21,7 +22,7 @@ const posts = [
     {
       id: 3,
       date: { day: '3', month: 'YVW' },
-      imgSrc: 'https://media.licdn.com/dms/image/v2/C511BAQEbB70-I3HzNw/company-background_10000/company-background_10000/0/1583895892909/your_virtual_workers_philippines_cover?e=2147483647&v=beta&t=4Ok1juSEcg06s3WjUc9gb8Ynpw-lIM1H5TIPS-uyBns',
+      imgSrc: yvwImage,
       title: 'IT Support at Your Virtual World (June 2021 - Feb 2023)',
       description: 'I provided technical support to lead generators and agents, resolving hardware, software, and network issues. Managed user accounts, ensured security compliance, and built responsive website content using the MERN stack (MongoDB, Express.js, React, Node.js), ensuring a seamless user experience.'
     },
