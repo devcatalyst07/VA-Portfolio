@@ -10,7 +10,7 @@ const posts = [
       date: { day: '1', month: 'MDSI' },
       imgSrc: 'https://media.glassdoor.com/l/e6/c2/aa/e0/office.jpg?signature=d6cb61bf5a3527386f62c80cedde35809ccdc33ff5a64b419b50bd4fbe8f44ce',
       title: 'Front-End Software Engineer at Manulife Data Services Inc. (Nov 2023 - June 2025)',
-      description: 'As a Front-End Engineer, I develop, maintain, and update content for the Content Management Application (CMA) within US Retirement under Global Digital Marketing. I design responsive email templates for weekly communications, ensuring semantic HTML, internal CSS, and seamless Salesforce integration. I lead microsite projects for ARA and STAFF websites, focusing on user experience and business goals, and utilize Sitecore for website content management. Coordinates with cross-functional teams, including designers, back-end developers, and project managers, to implement new features, troubleshoot issues, and ensure high-quality deliverables using high programming languages such as JavaScript and its library (Node and React). '
+      description: 'I manage and update CMA content under US Retirement, create responsive email templates integrated with Salesforce, and lead microsite projects for ARA and STAFF. I also use Sitecore for content management and work with cross-functional teams to deliver features and resolve issues using JavaScript, Node.js, and React. '
     },
     {
       id: 2,
@@ -19,17 +19,27 @@ const posts = [
       title: 'Part-Time Engineering Instructor at National College of Science and Technology (March 2024 - May 2025)',
       description: 'I serve as a thesis adviser for Computer Engineering students, guiding capstone projects with mentorship and academic rigor. Additionally, I founded the Engineering Society and Alliance, fostering professional development and enhancing student skills through collaboration and hands-on experiences.'
     },
+
     {
       id: 3,
-      date: { day: '3', month: 'YVW' },
+      date: { day: '3', month: 'Upw' },
+      imgSrc: 'https://assets.techrepublic.com/uploads/2022/05/Upwork-Laptop.jpeg',
+      title: 'Full Stack Developer (MERN STACK) (Jan 2021 - Oct 2023)',
+      description: 'I worked as a Freelance Full Stack Developer on Upwork, where I delivered end-to-end web solutions using the MERN stack. I built responsive and user-friendly front-end interfaces, developed scalable REST APIs, and deployed production-ready applications for various international clients.'
+    },
+
+    {
+      id: 4,
+      date: { day: '4', month: 'YVW' },
       imgSrc: yvwImage,
       title: 'IT Support at Your Virtual World (June 2021 - Feb 2023)',
       description: 'I provided technical support to lead generators and agents, resolving hardware, software, and network issues. Managed user accounts, ensured security compliance, and built responsive website content using the MERN stack (MongoDB, Express.js, React, Node.js), ensuring a seamless user experience.'
     },
+
     {
-      id: 4,
-      date: { day: '4', month: 'EDU' },
-      imgSrc: 'https://www.processmaker.com/wp-content/uploads/2019/12/464-768x511.jpg',
+      id: 5,
+      date: { day: '5', month: 'EDU' },
+      imgSrc: 'https://www.makemyassignments.com/blog/wp-content/uploads/2023/04/1633521512banner.jpg',
       title: 'Education',
       description: 'I earned a Bachelor of Science in Computer Engineering from National College of Science and Technology, where I received the Best Thesis Prototype award. I completed the JavaScript Full Stack course at Zuitt Coding Bootcamp with High Honors, earning the Best in Capstones and achieving a perfect grade. I also graduated with high honors from Senior High School at NCST, where I was Editor-in-Chief of the newspaper "The Nation Builder."'
     }

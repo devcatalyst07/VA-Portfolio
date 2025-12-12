@@ -18,6 +18,10 @@ body.dark .navbar .nav-link {
   color: white;
 }
 
+body.dark strong{
+  color: yellow;
+}
+
 .red {
   color: darkred;
 }
