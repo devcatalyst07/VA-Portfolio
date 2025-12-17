@@ -23,8 +23,8 @@ const posts = [
     {
       id: 3,
       date: { day: '3', month: 'Upw' },
-      imgSrc: 'https://assets.techrepublic.com/uploads/2022/05/Upwork-Laptop.jpeg',
-      title: 'Full Stack Developer (MERN STACK) (Jan 2021 - Oct 2023)',
+      imgSrc: 'https://www.freelancinggig.com/blog/wp-content/uploads/2016/02/freelance-jobs.jpg',
+      title: 'Full Stack Developer [FREELANCE - REMOTE JOB] (Jan 2021 - Oct 2023)',
       description: 'I worked as a Freelance Full Stack Developer on Upwork, where I delivered end-to-end web solutions using the MERN stack. I built responsive and user-friendly front-end interfaces, developed scalable REST APIs, and deployed production-ready applications for various international clients.'
     },
 

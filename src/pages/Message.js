@@ -36,7 +36,8 @@ function Form() {
     setIsSubmitting(true);
 
     try {
-      // Replace these with your actual EmailJS credentials
+      // EmailJS Credentials:
+      
       const serviceID = 'service_j8fdg1s';
       const templateID = 'template_4cvw9p4';
       const publicKey = '77x0XZhZ6lZDiAd20';
