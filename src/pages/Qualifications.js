@@ -39,7 +39,7 @@ const posts = [
     {
       id: 5,
       date: { day: '5', month: 'EDU' },
-      imgSrc: 'https://www.makemyassignments.com/blog/wp-content/uploads/2023/04/1633521512banner.jpg',
+      imgSrc: 'https://www.aiu.edu/wp-content/uploads/2025/02/education-technology-trends-scaled-1.jpg',
       title: 'Education',
       description: 'I earned a Bachelor of Science in Computer Engineering from National College of Science and Technology, where I received the Best Thesis Prototype award. I completed the JavaScript Full Stack course at Zuitt Coding Bootcamp with High Honors, earning the Best in Capstones and achieving a perfect grade. I also graduated with high honors from Senior High School at NCST, where I was Editor-in-Chief of the newspaper "The Nation Builder."'
     }
