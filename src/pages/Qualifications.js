@@ -22,10 +22,10 @@ const posts = [
 
     {
       id: 3,
-      date: { day: '3', month: 'Upw' },
+      date: { day: '3', month: 'FRE' },
       imgSrc: 'https://www.freelancinggig.com/blog/wp-content/uploads/2016/02/freelance-jobs.jpg',
       title: 'Full Stack Developer [FREELANCE - REMOTE JOB] (Jan 2021 - Oct 2023)',
-      description: 'I worked as a Freelance Full Stack Developer on Upwork, where I delivered end-to-end web solutions using the MERN stack. I built responsive and user-friendly front-end interfaces, developed scalable REST APIs, and deployed production-ready applications for various international clients.'
+      description: 'I worked as a Freelance Full Stack Developer, where I delivered end-to-end web solutions using the MERN stack. I built responsive and user-friendly front-end interfaces, developed scalable REST APIs, and deployed production-ready applications for various international clients.'
     },
 
     {
