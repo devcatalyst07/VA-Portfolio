@@ -37,9 +37,9 @@ const About = () => {
                 <h1>ABOUT RJ</h1> <br></br>
                 <p className="p2">Hello, I am <strong className='red'>Roque Jerico!</strong></p>
                 <p>I'm a creative problem-solver and passionate tech enthusiast with a knack for building intuitive, user-friendly web experiences. Since <strong className='red'>2021</strong>, I've been designing, developing, and refining digital content across various platforms, always aiming to blend functionality with clean, modern aesthetics.</p>
+                <p>I currently work as a <strong className='red'>Full Stack Web Developer at Action Auto Sales & Finance LLC</strong>, where I develop and maintain end-to-end web applications using Next.js, Node.js, Tailwind CSS, and AWS. My role involves building responsive user interfaces, developing backend services and APIs, deploying cloud-based solutions, and optimizing performance to support business operations and customer-facing systems.</p>
                 <p>Over the years, I've built a diverse technical background. I previously worked as a <strong className='red'>Front-end Software Engineer at Manulife Business Processing Services and served as a Part-time Engineering College Instructor at the National College of Science and Technology</strong>, I also worked as an <strong className='red'>IT Support Specialist at Your Virtual World</strong>, where I assisted Lead Generators with hardware/software issues and helped build websites using the MERN Stack.</p>
                 <p>Today, I continue to grow my skills through freelance and project-based work, collaborating with clients to develop responsive websites, optimize user experiences, and deliver scalable full-stack solutions.</p>
-                <p>I'm currently looking for a full-time opportunity as a <strong className='red'>Full Stack Developer</strong>, where I can contribute my experience, creativity, and passion for building impactful digital products. Let's connect!</p>
                 <p></p><p></p><p></p>
 
               <div className='row'>
