@@ -38,7 +38,7 @@ const posts = [
 
     {
       id: 5,
-      date: { day: '6', month: 'YVW' },
+      date: { day: '5', month: 'YVW' },
       imgSrc: yvwImage,
       title: 'IT Support at Your Virtual World (June 2021 - Feb 2023)',
       description: 'I provided technical support to lead generators and agents, resolving hardware, software, and network issues. Managed user accounts, ensured security compliance, and built responsive website content using the MERN stack (MongoDB, Express.js, React, Node.js), ensuring a seamless user experience.'
