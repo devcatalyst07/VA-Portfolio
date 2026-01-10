@@ -19,7 +19,7 @@ body.dark .navbar .nav-link {
 }
 
 body.dark strong{
-  color: yellow;
+  color: lightblue;
 }
 
 .red {
@@ -323,12 +323,12 @@ body.dark .div-1 {
 
 body.dark .download-link:hover {
   background-color: #0056b3;
-  color: yellow;
+  color: lightblue;
 }
 
 .download-link:hover {
   background-color: #0056b3;
-  color: yellow;
+  color: lightblue;
 }
 
 .download-link,
